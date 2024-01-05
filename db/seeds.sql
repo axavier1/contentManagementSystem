@@ -14,4 +14,4 @@ VALUES
 ("John", "Smith", 1, NULL),
 ("Jane", "Doe", 2, NULL),
 ("Bradd", "Pitt", 3, NULL),
-("Anthony", "Richardson", 4, NULL);
+("Anthony", "Richardson", 4, NULL)

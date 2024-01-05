@@ -1,7 +1,10 @@
+-- Creating database/deleting it if it already exists
 DROP DATABASE IF EXISTS employees_db;
 CREATE DATABASE employees_db;
 
 USE employees_db;
+
+--Create tables for employees, roles and departments
 CREATE TABLE department(
     id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     name VARCHAR(30) NOT NULL UNIQUE
